@@ -8,8 +8,8 @@
 # end
 #===== with MAP ========
 def roll_call_dwarves(dwarves)
-  dwarves.map.with_index(1) do |dwarve, index|
-      puts "#{index} #{dwarve}"
+  dwarves.each.with_index(1) do |dwarf, index|
+      puts "#{index} #{dwarf}"
   end
 end
 
